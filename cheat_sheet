@@ -78,8 +78,13 @@ $ git commit --amend
 
 # tags 
 
+## list tags
+$ git tag
+
 ## push new tags to remote
 $ git push --tags
+
+
 
 # managing file/dir revisions
 
@@ -94,7 +99,6 @@ $ git reset --hard HEAD
 
 ## view uncommitted changes for a specific file:
 $ git diff <file name>
-
 
 
 
