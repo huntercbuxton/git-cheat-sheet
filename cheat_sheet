@@ -84,6 +84,8 @@ $ git tag
 ## push new tags to remote
 $ git push --tags
 
+## create a signed tag 
+$ git tag -s <name> -m <message>
 
 
 # managing file/dir revisions
