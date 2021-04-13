@@ -1,0 +1,61 @@
+# removing un-needed SSH keys from github
+## step 1: identify keys that are currently saved on your development devices
+## step 2: identify keys that are needed for deployment to servers, etc
+## step 3 (optional): identify keys needed by other contributors
+## step 4 (optional): identify superfluous keys on your development devices
+## step 5 (optional): identify superfluous keys meant for deployment, etc.
+## step 6 (optional): replace/upgrade keys with vulnerabilities
+## step 7 (optional): back up and secure your private keys
+## steo 8 (optional): erasing un-needed private keys
+## step 5: delete unwanted keys from github
+
+# removing un-needed GPG keys from github
+## step 1: identify keys that are currently saved on your development devices
+## step 3 (optional): identify keys needed by other contributors
+## step 4 (optional): identify superfluous keys on your development devices
+## step 6 (optional): replace/upgrade keys with vulnerabilities
+## step 7 (optional): back up and secure your private keys
+## steo 8 (optional): erasing un-needed private keys
+## step 5: delete unwanted keys from github
+
+# removing un-needed SSH keys from BitBucket
+## step 1: identify keys that are currently saved on your development devices
+## step 2: identify keys that are needed for deployment to servers, etc
+## step 3 (optional): identify keys needed by other contributors
+## step 4 (optional): identify superfluous keys on your development devices
+## step 5 (optional): identify superfluous keys meant for deployment, etc.
+## step 6 (optional): replace/upgrade keys with vulnerabilities
+## step 7 (optional): back up and secure your private keys
+## steo 8 (optional): erasing un-needed private keys
+## step 5: delete unwanted keys from github
+
+# setup SSH key for use with BitBucket 
+
+# getting misc on your GPG signing keys
+
+# set up a new GPG signing key
+ 
+# edit a GPG signing key
+
+# delete &/or replace a GPG signing key
+
+# setup multiple SSH keys for use with GitHub
+
+# changing your 'commit email' on GitHub
+
+# changing your 'commit email' on BitBucket
+
+# new server setup tasks 
+## for a DigitalOcean droplet
+## for GoDaddy Linux hosting w/Cpanel
+
+# forking a repo on GitHub
+
+# submit a pull request on GitHub
+
+# review/respond to pull requests on GitHub
+
+# merge a pull request on GitHub 
+
+# create a 'github pages' website
+
