@@ -1,119 +1,164 @@
 # creating a new repo
 
 ## create local repo in working dir
-$ git init 
-
+```script 
+git init
+``` 
 # cloning a remote repo
  
 ## using ssh, github, and the key for 'Host *' in ssh config file:
-$ git clone git@github.com:<github username>/<github repo name>.git
+```script 
+git clone git@github.com:<github username>/ <github repo name>.git
+```
 ### example: 
+```script
 $ git@github.com:huntercbuxton/git-cheat-sheet.git 
+```
 
 ## using ssh, github, and the key from an ssh config file entry specifying User, Host, & HostName:
-$ git clone <host>:<github username>/<github repo name>.git
+```script
+git clone <host>:<github username>/<github repo name>.git
+```
 ### example: 
-$ githubkey2:huntercbuxton/git-cheat-sheet.git
-
+```script
+githubkey2:huntercbuxton/git-cheat-sheet.git
+``` 
 ## using https and github
-$ https://github.com/<github username>/<github repo name>.git
-### example: 
-$ https://github.com/huntercbuxton/git-cheat-sheet.git
+```script https://github.com/<github username>/<github repo name>.git
+```
 
+### example: 
+
+```script
+ https://github.com/huntercbuxton/git-cheat-sheet.git
+```
 
 # remote repos
 
 ## list remote repos
-$ git remote -v
-
+```script
+ git remote -v
+```
 ## add a remote repo
-$ git remote add <new remote name> <new remote url>
-
+```script
+ git remote add <new remote name> <new remote url>
+```
 ## remove a remote repo
-$ git remote rm <remote name>
 
+```script
+ git remote rm <remote name>
+```
 
 
 # branches
 
 ## list remote branches
-$ git branch -r
-
+```script
+ git branch -r
+```
 ## list local branches
-$ git branch
-
+```script
+ git branch
+```
 ## list local AND remote branches
-$ git branch -a
-
+```script
+ git branch -a
+```
 ## switch to another branch
-$ git checkout <branch name>
-
+```script
+ git checkout <branch name>
+```
 ## create new branch (but stay on current branch)
-$ git branch <new branch name>
+```script
+ git branch <new branch name>
+```
 
 ## create new branch (AND switch to it immediately)
-$ git checkout -b <new branch name>
-
+```script
+ git checkout -b <new branch name>
+```
 ## copy branch from local to remote repo
-$ git push -u <remote name> <local branch name>
+```script
+ git push -u <remote name> <local branch name>
+```
 
 ## delete local branch 
-$ git branch -d <local-branch>
-
+```script
+ git branch -d <local-branch>
+```
 ## copy branch from remote to local repo 
-$ git fetch 
-$ git checkout <remote branch>
-
+```script
+ git fetch 
+ git checkout <remote branch>
+```
 ## copy new commits from one branch to another
-$ git checkout <outdated branch>
-$ git merge <updated branch>
+```script
+ git checkout <outdated branch>
+ git merge <updated branch>
+```
 
 ## output the current branch's tracking info 
-$ git branch -vv
-
+```script
+ git branch -vv
+```
 
 
 # commits 
 
 ## revise most recent commit with all uncommitted changes (don't do this if you have already pushed the most recent commit to the remote branch it tracks) 
-$ git add -A
-$ git commit --amend
-
+```script
+ git add -A
+ git commit --amend
+```
 
 
 # tags 
 
 ## list tags
-$ git tag
+```script
+ git tag
+```
 
 ## push new tags to remote
-$ git push --tags
+```script
+ git push --tags
+```
 
 ## create a signed tag 
-$ git tag -s <name> -m <message>
-
+```script
+ git tag -s <name> -m <message>
+```
 
 # managing file/dir revisions
 
 ## make git 'forget' a file (but don't delete it) (remember to add <file> to .gitignore first)
-$ git rm --cached <file>
+
+```script
+ git rm --cached <file>
+```
 
 ## delete a file (not just from git, but also from the filesystem)
-$ git rm <file>
+```script
+ git rm <file>
+```
 
 ## discard ALL changes to ALL files since most recent commit 
-$ git reset --hard HEAD
+```script
+ git reset --hard HEAD
+```
 
 ## view uncommitted changes for a specific file:
-$ git diff <file name>
-
+```script
+ git diff <file name>
+```
 
 
 
 # misc commands
 
 ## view list of for current branch
-$ git log
-
+```script
+ git log
+```
 
 
