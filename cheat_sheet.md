@@ -156,9 +156,8 @@ githubkey2:huntercbuxton/git-cheat-sheet.git
 
 # misc commands
 
-## view list of for current branch
+## view list of commits for current branch
 ```script
  git log
 ```
-
 
