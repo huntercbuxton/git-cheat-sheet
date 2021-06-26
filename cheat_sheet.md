@@ -82,6 +82,11 @@ githubkey2:huntercbuxton/git-cheat-sheet.git
  git push -u <remote name> <local branch name>
 ```
 
+## push all branches to remote
+```script
+git push --all -u
+```
+
 ## delete local branch 
 ```script
  git branch -d <local-branch>
